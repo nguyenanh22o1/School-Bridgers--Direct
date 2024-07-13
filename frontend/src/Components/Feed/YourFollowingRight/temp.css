@@ -1,0 +1,31 @@
+.ranking {
+    margin-top: 1%;
+    margin-left: 2%;
+    width: 320px;
+    min-height: 100%;
+    float: left;
+    /* border-radius: 5rem; */
+
+}
+
+.number-in-ranking {
+    margin-right: 10px;
+}
+
+
+.following {
+    margin-top: 3%;
+    width: 300px;
+    margin-right: 2%;
+    min-height: 100%;
+    float: right;
+}
+
+.cup {
+    height: 270px;
+}
+
+.follower {
+    height: 220px;
+    margin-left: 15%;
+}

@@ -1,0 +1,99 @@
+.register-container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 10px;
+    /* min-height: 50%; */
+    min-width: 30%;
+    background-color: #212121;
+    overflow: hidden;
+}
+
+
+.register-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    min-width: 100%;
+    /* margin-top: 3rem; */
+}
+
+.register-title {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.register-email,
+.register-password,
+.register-username {
+    font-size: 0.85rem;
+}
+
+.register-error {
+    margin-top: 1rem;
+    align-self: center;
+    color: rgb(255, 0, 55);
+}
+
+.email-label,
+.username-label,
+.password-label {
+    font-size: 0.85rem;
+}
+
+.register-login {
+    margin: 2rem 1rem 0 1rem;
+    font-size: 1rem;
+}
+
+.register-login-link {
+    text-decoration: none;
+    cursor: pointer;
+    /* font-size: 1rem; */
+    margin-top: 0.3rem;
+    color: #dddedf;
+    font-weight: 500;
+}
+
+.errorMsg {
+    text-align: start;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: rgb(253, 81, 81);
+    margin-bottom: 1rem;
+    /* margin: ; */
+}
+
+.register-err {
+    font-size: 0.85rem;
+    color: rgb(255, 77, 77);
+    margin: auto;
+}
+
+.register-input>form {
+    display: flex;
+    font-size: 0.85rem;
+    font-weight: 600;
+    flex-direction: column;
+    max-width: 200px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+input {
+    border: none;
+    font-size: 0.85rem;
+    padding: 0.65rem;
+    font-family: "Noto Sans", sans-serif;
+    margin-top: 0.5rem;
+    margin-bottom: 1.25rem;
+    border-radius: 4px;
+    width: 100%;
+}

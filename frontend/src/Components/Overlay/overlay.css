@@ -1,0 +1,33 @@
+.popups-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* margin-top: 1er; */
+}
+
+
+.popups-container {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  /* margin-top: 5%; */
+  /* margin-bottom: auto; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 700px;
+  min-height: 30%;
+  background-color: rgb(82, 82, 82);
+  border-radius: 10px;
+}
+
+/* .new-popups-containerƠ */

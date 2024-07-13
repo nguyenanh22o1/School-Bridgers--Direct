@@ -1,0 +1,29 @@
+footer {
+  background-color: rgb(58, 58, 58);
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  left: 50%;
+  bottom: 0%;
+  height: 60px;
+  width: 750px;
+  transform: translate(-50%, -0%);
+  margin: 0 auto;
+  border-radius: 10px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  cursor: pointer;
+}
+
+.footer-title {
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+footer:hover,
+footer.footer-title:hover {
+  background-color: rgb(256, 196, 60);
+  color: #39393a;
+  font-size: 2.5rem;
+}
